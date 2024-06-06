@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar Datos desde XML a BD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="upload-section">
+        <div class="container">
+            <h1>Importar Datos desde XML a la Base de Datos</h1>
+            <form action="importar.php" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="archivoXML">Seleccione el archivo XML:</label>
+                    <input type="file" name="archivoXML" id="archivoXML" accept=".xml">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Importar a BD" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
